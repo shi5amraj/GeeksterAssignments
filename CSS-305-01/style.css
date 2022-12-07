@@ -1,0 +1,38 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .parent{
+            width: 80vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            border: 2px solid red;
+            justify-content: space-evenly;
+
+        }
+
+        .child{
+            width: 30%;
+            border: 2px solid red;
+            height: 45%;
+            border-radius: 10px;
+        }
+        .image
+        {
+            width: 100%; 
+            height: 100%; 
+        }
+
