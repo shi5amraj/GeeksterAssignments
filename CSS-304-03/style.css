@@ -1,0 +1,26 @@
+*{
+    margin: 0;padding: 0;
+}
+.container{
+    height: 40vh;
+    width: 20vw;
+    background-color: rgb(255, 253, 253);
+    z-index: 1000;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    margin-left: 29%;
+    padding: 10px;
+}
+img{
+    padding: 10px;
+    height: 80%;
+    width: 100%;
+}
+h2{
+    padding: 15px;
+    color: grey;
+}
