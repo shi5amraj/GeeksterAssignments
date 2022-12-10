@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Page</title>
+   <style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+  body
+  {
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .topDiv
+  {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+  }
+  h1{
+    height: 20%;
+  }
+  .parentDiv
+  {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(to right, rgb(99, 96, 96),rgb(99, 96, 96),black,black);
+  }
+  .child1
+  {
+    height: 100%;
+    width: 30%;
+    background-color:rgb(99, 96, 96);
+    transform: skew(-20deg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    
+  }
+  .child1Item
+  {
+    color: white;
+    font-weight: 900;
+    transform: skew(20deg);
+  }
+  .child2
+  {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(51, 49, 49);
+    transform: skew(-20deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .child2Item
+  {
+    color: white;
+    font-weight: 900;
+    font-style: bold;
+    transform: skew(20deg);
+  }
+  .child3
+  {
+    height: 100%;
+    width: 30%;
+    background-color: black;
+    transform: skew(-20deg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    
+  }
+  .child3Item
+  {
+    color: teal;
+    font-weight: 900;
+    transform: skew(20deg);
+  }
+
+
+  .contentDiv
+  {
+    width: 60%;
+    height: 60%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .para
+  {
+   width: 100%;
+   height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+   
+  }
+  .iframeDiv
+  {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+  }
+
+
+   </style>
+
+
+</head>
+<body>
+    
+<div class="topDiv">
+    <h1>TypoGraphy in Design System</h1>
+     <div class="parentDiv">
+        <div class="child1"><h1 class="child1Item">Aa</h2></div>
+        <div class="child2"><h1 class="child2Item">Aa</h2></div>
+        <div class="child3"><h1 class="child3Item">Aa</h2></div>
+     </div>
+
+</div>
+<div class="contentDiv">
+    <div class="para">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde facilis ut natus in accusantium ex beatae nemo, quia, veritatis magnam nisi ipsum voluptates neque consequuntur adipisci dolore quaerat cupiditate voluptate distinctio culpa necessitatibus dolores? Nisi officia suscipit amet? Rem, ad corrupti neque similique quasi beatae explicabo sint quos quibusdam minima maiores molestias accusantium animi ab labore? Quia iure sint qui fugiat laborum quod mollitia saepe magni! Sint recusandae commodi rem!</p>
+    
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolore necessitatibus tenetur ipsam nisi cum culpa ullam aperiam cumque! Quibusdam voluptates rerum possimus, cupiditate reiciendis in tenetur est omnis quisquam esse temporibus consequuntur natus, similique ad saepe mollitia ipsam facere.</p>
+    
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ad accusamus voluptas possimus amet at unde corporis minima quisquam libero eius officia, exercitationem fuga, accusantium quam ipsa illum pariatur sed dolores nulla nesciunt praesentium error voluptates? Suscipit atque nemo magnam nulla at dicta, facilis dolores repellat accusamus. Consequuntur nesciunt delectus rerum consequatur velit corrupti vel. Aspernatur ducimus facilis corporis autem?</p>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, debitis voluptates perspiciatis odio, nam quos laborum vel distinctio maxime tenetur asperiores dignissimos, neque aliquid? Possimus nesciunt natus repudiandae deserunt, odio obcaecati maxime, voluptates, provident veniam similique soluta accusamus nam! Suscipit veniam perferendis, corrupti saepe ullam doloremque ducimus delectus? Ex omnis eius facilis voluptate fuga ut itaque explicabo sint est cupiditate eum, consequatur corporis! Rerum illum recusandae deleniti nisi voluptatibus veritatis non cupiditate, molestias animi nostrum dicta hic nobis quisquam tempora!</p>
+    </div>
+    
+    <div class="iframeDiv"><iframe  width="100%" height="100%" src="https://www.youtube.com/embed/GMqO64SkJ5I" title="India VS Bangladesh 3RD_ODI Full Match Highlights 2022 | IND VS BAN | Ishan Kishan 210" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+        <div class="para1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, debitis voluptates perspiciatis odio, nam quos laborum vel distinctio maxime tenetur asperiores dignissimos, neque aliquid? Possimus nesciunt natus repudiandae deserunt, odio obcaecati maxime, voluptates, provident veniam similique soluta accusamus nam! Suscipit veniam perferendis, corrupti saepe ullam doloremque ducimus delectus? Ex omnis eius facilis voluptate fuga ut itaque explicabo sint est cupiditate eum, consequatur corporis! Rerum illum recusandae deleniti nisi voluptatibus veritatis non cupiditate, molestias animi nostrum dicta hic nobis quisquam tempora!</p>
+        </div>
+    </div>
+    
+
+    </div>
+
+
+</body>
+</html>
