@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-305-05</title>
+    <script src="https://kit.fontawesome.com/8b1097e2e9.js" crossorigin="anonymous"></script>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+       .mainContainer
+       {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        background: #C9F4F0; 
+       }
+        .leftContainer
+        {
+            width: 25%;
+            height: 100%;
+          
+            background: #EBF9F8;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .profile
+        {
+          width: 100%;
+          height: 24%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+           
+        }
+        .profilePicDiv
+        {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+         
+            object-fit: cover;
+        }
+         .img
+         {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+         }
+         .profile h2
+         {
+            font-weight:bold;
+        color: rgb(54, 148, 148);
+         }
+         .profile p
+         {
+            font-weight:bold;
+        color: rgb(54, 148, 148);
+         }
+
+        .list
+        {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+           
+           
+        }
+       .list ul
+        {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .list ul li
+        {
+        font-size:20px;
+        font-weight:bold;
+        color: rgb(54, 148, 148);
+         display: flex;
+         margin:5% 1%;
+          padding: 6%;
+        }
+
+        .footerCard
+        {
+            width: 85%;
+            height: 18%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
+            background: linear-gradient(to Right ,#7BC3B1,#7AC2B2);
+            border-radius: 30px;
+
+        }
+
+        .footerLeftContent{
+           height: 100%;
+           width: 60%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: space-around;
+           
+          
+        }
+        .footerLeftContent h3
+        {   
+           
+        font-size:20px;
+        font-weight:bold;
+        color: whitesmoke; 
+        }
+        .footerRightContent
+        {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footerRightContent i
+        {
+          color: white;
+          size: 500px;
+        }
+
+        .rightContainer
+        {
+            width: 75%;
+            height: 100%;
+           
+            background: #C9F4F0; 
+            display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: flex-start;
+          margin-left: 10%;
+        }
+        .activeGame
+        {
+            width: 40%;
+            height: 20%;
+       
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            
+        }
+        .topBar
+        {
+            width: 80%;
+            height: 21%;
+            background: #EBF9F8;
+            border-radius: 20px;
+            color: #64839E;
+        }
+        .card
+        {
+            width: 80%;
+            height: 20%;
+            background: linear-gradient(#E7FAF7,#ECFBF7);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .imgCard
+        {
+            width: 15%;
+            height: 80%;
+            border-radius: 30%;
+        }
+        .midContentCard
+        {
+            height: 100%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            color: #8CA4BA;
+            margin-left: 10%;
+        }
+        .midContentCard p
+        {
+            margin-left: 0;
+        }
+        .bar
+        {    height: 15%;
+            width: 55%;
+            background: #92E7DA;
+            border-radius: 20px;
+        }
+
+        .rightPercentCard
+        {
+            height: 100%;
+            width: 15%;
+            margin-top:10% ;
+            color: #8CA4BA;
+            font-weight: bolder;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+   <div class="mainContainer">
+    <div class="leftContainer">
+      <div class="profile">
+        <div class="profilePicDiv"><img src="download.jpeg" alt="" class="img"></div>
+        <h2>KUMAR SHIVAM</h2>
+         <p>Pro Player</p>
+      </div>
+
+      <div class="list">
+        <ul>
+            <li><i class="fa fa-comments-o" aria-hidden="true"></i></li>
+            <li>Stream</li>
+        </ul>
+        <ul>
+            <li><i class="fa fa-search" aria-hidden="true"></i></li>
+            <li>Games</li>
+        </ul>
+        <ul>
+            <li><i class="fa fa-gamepad" aria-hidden="true"></i></li>
+            <li>New</li>
+        </ul>
+        <ul>
+            <li><i class="fa fa-book" aria-hidden="true"></i></li>
+            <li>Library</li>
+        </ul>
+      </div>
+      <div class="footerCard">
+        <div class="footerLeftContent">
+            <h3>Join Pro</h3>
+            <h3>Join Free</h3>
+            <h3>Games</h3>
+        </div>
+        <div class="footerRightContent">
+            <i class="fa-thin fa-tachograph-digital fa-5x"></i>
+        </div>
+      </div> 
+
+    </div>
+
+    <div class="rightContainer">
+    <div class="activeGame">
+        <h1>Active Games</h1>
+        <div class="topBar"></div>
+    </div>
+    <div class="card">
+        <div class="imgCard">
+            <img src="pubg-48237.png" alt="">
+        </div>
+        <div class="midContentCard">
+            <h3>Assassins creed valhalla</h3>
+            <p>P55 version</p>
+            <div class="bar"></div>
+        </div>
+        <div class="rightPercentCard">60%</div>
+    </div>
+    <div class="card">
+        <div class="imgCard"><img src="pubg-48237.png" alt=""></div>
+        <div class="midContentCard">
+            <h3>Assassins creed valhalla</h3>
+            <p>P55 version</p>
+            <div class="bar"></div>
+        </div>
+        <div class="rightPercentCard">60%</div>
+    </div>
+    <div class="card">
+        <div class="imgCard">
+            <img src="pubg-48237.png" alt="">
+        </div>
+        <div class="midContentCard">
+            <h3>Assassins creed valhalla</h3>
+            <p>P55 version</p>
+            <div class="bar"></div>
+        </div>
+        <div class="rightPercentCard">60%
+            
+        </div>
+    </div>
+
+    </div>
+
+   </div> 
+</body>
+</html>
