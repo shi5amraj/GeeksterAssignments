@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>HTML TEST FORM</title>
+    <style>
+        body
+        {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .mainContainer
+        {
+            width: 25%;
+            height: 50%;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background: turquoise;
+        }
+    </style>
+</head>
+<body>
+    
+     <div class="mainContainer">
+        <label for="name">Name:</label>
+       <input type="text" name="name" id="name" placeholder="Name">
+      Batch: <input type="text" name="batch" id="batch" placeholder="Batch">
+      Age: <input type="number" name="age" id="age" placeholder="Age">
+      Email: <input type="email" name="email" id="email" placeholder="Email">
+      Date of Birth: <input type="date" name="dob" id="dob">
+      Gender: <select name="gender" id="gender">
+        <option value="male">--Select--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+
+     </div>
+
+
+</body>
+</html>
